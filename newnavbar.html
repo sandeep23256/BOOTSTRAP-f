@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <style>
+        .weblogo {
+            width: 65px;
+        }
+        .navbar{
+            background: #48ab1970 !important;
+        }
+        .navbar-nav li{
+            padding: 0 10px;
+        }
+        .navbar-nav li a{
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .moblogo{
+            display: none;
+        }
+        .img{
+            width: 75%;
+        }
+        @media (max-width:768px) {
+            .moblogo{
+               display: block;
+            }
+            .weblogo{
+                display: none;
+            }
+            .navbar{
+                background: #fcb21c !important;
+            }
+            .img{
+            width: 100%;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-info fixed-top">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand">
+                <img src="image/ff-logo-02.png" class="weblogo">
+                <img src="image/" alt="" class="moblogo">
+            </a>
+            <!--mobile menu-->
+            <button class="navbar-toggler" data-bs-target="#aa" data-bs-toggle="collapse"><span class="navbar-toggler-icon"></span></button>
+            <!--menu div start-->
+            <div class="navbar-collapse collapse" id="aa">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li><a href="" class="nav-link">home</a></li>
+                    <li><a href="" class="nav-link">home</a></li>
+                    <li><a href="" class="nav-link">home</a></li>
+                    <li><a href="" class="nav-link">home</a></li>
+                </ul>
+
+            </div><!--menu end-->
+
+        </div><!--container-fluid end-->
+    </nav>
+</body>
+
+</html>
